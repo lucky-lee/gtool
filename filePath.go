@@ -20,6 +20,6 @@ func PathCurrent() string {
 }
 
 //current son dir
-func PathCurrentSonDir(dirName string) string {
+func PathCurrentSon(dirName string) string {
 	return fmt.Sprintf("%s/%s", PathCurrent(), dirName)
 }
